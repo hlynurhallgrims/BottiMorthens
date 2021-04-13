@@ -104,3 +104,8 @@ for (epoch in 1:1) {
     
   }
 }
+
+ConnectToApi()  # See function in ConnectToAPI.R
+
+# send tweet
+ST <- updateStatus(text = "A") # í stað "A"  á tístið sjálft úr textanum að ofan að koma
